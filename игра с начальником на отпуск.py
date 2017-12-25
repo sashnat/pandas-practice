@@ -1,3 +1,4 @@
+# put in practice some python skills :)) :
 def me(ya):
     print("Я, " + ya + ", хочу в отпуск")
     def tr0():
