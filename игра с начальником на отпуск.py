@@ -1,6 +1,7 @@
 # put in practice some python skills :)) :
 def me(ya):
     print("Я, " + ya + ", хочу в отпуск")
+    trying_number = []
     def game_rule():
         ok_answer = input("Давай сыграем, если выиграешь, пойдешь в отпуск. Ok?:) ").lower()
         def game():
@@ -49,12 +50,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-
 from openpyxl import load_workbook
-
 import os
 
-trying_number = []
 agree_list = ['ok', 'yes', 'sure', 'yeap']
 me(input("what is your name?"))
 ''' 
