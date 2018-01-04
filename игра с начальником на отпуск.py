@@ -1,13 +1,14 @@
 # put in practice some python skills :)) :
 def me(ya):
     print("Я, " + ya + ", хочу в отпуск")
-    def tr0():
-        q = input("Давай сыграем, если выиграешь, пойдешь в отпуск. Ok?:) ").lower()
-        def tr():
-           if q in s:
-                b = input("Как пишется слон на английском языке?").lower()
-                i.append(str(1))
-                if b == "elephant":
+    def game_rule():
+        ok_answer = input("Давай сыграем, если выиграешь, пойдешь в отпуск. Ok?:) ").lower()
+        def game():
+           if ok_answer in agree_list:
+                answer = input("Как пишется слон на английском языке? ").lower()
+                trying_number.append(str(1))
+
+                if answer == "elephant":
                     print("Поздравляю! Ты уходишь в отпуск!" + \
                           " Осталось только написать заявление на отпуск." + \
                           " Форма здесь")
@@ -30,19 +31,19 @@ def me(ya):
 
 
                 else:
-                    if len(i) >= 3:
+                    if len(trying_number) >= 3:
                         print ('Sorry ... Зайдите попозже, поиграем :)')
                         return
                     else:
                         print ('К сожалению, неправильно, попробуем еще раз !')
-                        return tr()
+                        return game()
                         
            else:
                print ("по-английски, пожалуйста, попробуем еще раз")
-               print (tr0())
-        print (tr())
+               print (game_rule())
+        print (game())
 
-    print(tr0())
+    print(game_rule())
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -53,8 +54,8 @@ from openpyxl import load_workbook
 
 import os
 
-i = []
-s = ['ok', 'yes', 'sure', 'yeap']
+trying_number = []
+agree_list = ['ok', 'yes', 'sure', 'yeap']
 me(input("what is your name?"))
 ''' 
 ----------------------Output-----------------------------------
