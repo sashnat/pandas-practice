@@ -41,10 +41,10 @@ def me(ya):
                         
            else:
                print ("по-английски, пожалуйста, попробуем еще раз")
-               print (game_rule())
-        print (game())
+               return (game_rule())
+        return (game())
 
-    print(game_rule())
+    return (game_rule())
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -54,16 +54,16 @@ from openpyxl import load_workbook
 import os
 
 agree_list = ['ok', 'yes', 'sure', 'yeap']
-me(input("what is your name?"))
+me(input("what is your name? "))
 ''' 
 ----------------------Output-----------------------------------
 
-what is your name?m
+what is your name? m
 Я, m, хочу в отпуск
-Давай сыграем, если выиграешь, пойдешь в отпуск. Ok?:)ok
-Как пишется слон на английском языке?elephant
+Давай сыграем, если выиграешь, пойдешь в отпуск. Ok?:) ok
+Как пишется слон на английском языке? elephant
 Поздравляю! Ты уходишь в отпуск! Осталось только написать заявление на отпуск. Форма здесь
-введите свое имяME
+введите свое имя ME
 введите дату:20_12_17
    Unnamed: 0            Unnamed: 1 Unnamed: 2
 0         NaN                   NaN         ME
