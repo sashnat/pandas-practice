@@ -41,10 +41,10 @@ def me(ya):
                         
            else:
                print ("по-английски, пожалуйста, попробуем еще раз")
-               return (game_rule())
-        return (game())
+               return game_rule()
+        return game()
 
-    return (game_rule())
+    return game_rule()
 
 import pandas as pd
 import matplotlib.pyplot as plt
