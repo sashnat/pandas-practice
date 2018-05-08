@@ -7,8 +7,7 @@ def me(ya):
         def game():
            if ok_answer in agree_list:
                 answer = input("Как пишется слон на английском языке? ").lower()
-                trying_number.append(str(1)) # выбрала список специально (якобы усложнить), можно просто trying_number = 0 ---> trying_number += 1 вместо списка
-
+                trying_number.append('abcd')
                 if answer == "elephant":
                     print("Поздравляю! Ты уходишь в отпуск!" + \
                           " Осталось только написать заявление на отпуск." + \
