@@ -68,8 +68,8 @@ df.index = (str(i) + '- area' for i in range(1, len(df.index) + 1))
 stacked = df.stack()
 print(stacked)
 
-df.to_excel('C:\\Users\E277460\PycharmProjects\june 2018\\calculation of wallpaper rolls\\calc1.xlsx')
-stacked.to_excel('C:\\Users\E277460\PycharmProjects\june 2018\\calculation of wallpaper rolls\\stacked1.xlsx')
+df.to_excel('C:\\Users\PycharmProjects\june 2018\\calculation of wallpaper rolls\\calc1.xlsx')
+stacked.to_excel('C:\\Users\PycharmProjects\june 2018\\calculation of wallpaper rolls\\stacked1.xlsx')
 
 
 #---------------------Output---------------- :
