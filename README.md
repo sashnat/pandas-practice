@@ -1,4 +1,3 @@
 # pandas-practice
-pandas practice
 
-/exercise_1/ - the first trying in pandas, not a practice actually
+codes in this repository have been applied in my practies.
