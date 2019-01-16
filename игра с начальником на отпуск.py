@@ -12,8 +12,8 @@ def me(ya):
                     print("Поздравляю! Ты уходишь в отпуск!" + \
                           " Осталось только написать заявление на отпуск." + \
                           " Форма здесь")
-                    vac_form = r'C:\\Users\E277460\PycharmProjects\Jupyter\exercise_1\vac_form.xlsx'
-                    df_n = pd.read_excel(r'C:\\Users\E277460\PycharmProjects\Jupyter\exercise_1\\vac_form - Copy.xlsx')
+                    vac_form = r'C:\\Users\PycharmProjects\Jupyter\exercise_1\vac_form.xlsx'
+                    df_n = pd.read_excel(r'C:\\Users\PycharmProjects\Jupyter\exercise_1\\vac_form - Copy.xlsx')
 
                     book = load_workbook(vac_form)
                     writer = pd.ExcelWriter(vac_form, engine='openpyxl') # writes into a new sheet
